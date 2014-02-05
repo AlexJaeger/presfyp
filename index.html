@@ -1,15 +1,14 @@
 ﻿<!doctype html>
 
-
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewportS" content="width=1024" />
+    <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>Team Deasy: Cannutrack</title>
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
     
-    <meta name="description" content="A method of preventing ED patients from leaving the hospital with cannulae in situ" />
-    <meta name="author" content="Alex Jaeger, Electrical Engineering UCC" />
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
@@ -28,58 +27,31 @@
     <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
 </div>
 
-
 <div id="impress">
+
+ 
+    
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+        <q>Aren't you just <b>bored</b> with all those slides-based presentations?</q>
+    </div>
 
   
 
-    <div  class="step" data-x="-800" data-y="0" data-z="1000" data-rotate-y="90">
-       
+
+  
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">then you should try</span>
+        <h1>impress.js<sup>*</sup></h1>
+        <span class="footnote"><sup>*</sup> no rhyme intended</span>
     </div>
 
- 
-
-     <div  class="step" data-x="+1500" data-y="0">
-
-    </div>
-
-   
-
-    <div  class="step" data-x="+3500" data-y="0">
+  
     
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
     </div>
 
-
-
-    <div  class="step" data-x="+2500" data-y="1000">
-     
-    </div>
-
-
-<div  class="step" data-x="+3500" data-y="1000">
-    
 </div>
-
-<div  class="step" data-x="+3500" data-y="2000">
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -94,12 +66,23 @@ if ("ontouchstart" in document.documentElement) {
 <script>impress().init();</script>
 
 
-<script src="js/jquery.media.js"></script>
-<script>impress().init();</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9117370-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 
 </body>
 </html>
-
-
 
